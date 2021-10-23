@@ -57,12 +57,12 @@ public class ImageRecognitionDemo : MonoBehaviour
         prefab.transform.position = position;
         prefab.SetActive(true);
 
-        foreach (GameObject go in spawnedPrefabs.Values)
-        {
-            if (go.name != name)
-            {
-                go.SetActive(false);
-            }
-        }
+        //foreach (GameObject go in spawnedPrefabs.Values)
+        //{
+        //    if (go.name != name)
+        //    {
+        //        go.SetActive(false);
+        //    }
+        //}
     }
 }

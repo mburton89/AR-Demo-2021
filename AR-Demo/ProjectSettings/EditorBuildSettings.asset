@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ARDemo.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/ARDemo 1.unity
+    guid: eba4c2ad49f3b2045bc133e667f8e734
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d0318f655b488804ba547381ea027ca4, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ae2e69854fc84445874f180f967fe0c, type: 2}
